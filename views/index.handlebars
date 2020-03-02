@@ -1,5 +1,5 @@
 <div>
-    <h1 class=" center-align">New York Tribune - Click 'Scrape' to get breaking news!</h1>
+    <h1 class=" center-align" style="font-size: xx-large" style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">News Scraper - Click 'Scrape' to get breaking news!</h1>
     <div class="row">
         <div class="col s3"></div>
         <h5 class="card z-depth-3 center-align col s6"></h5>
@@ -7,10 +7,10 @@
 </div>
 <div class="row">
     <div class="col s2"></div>
-    <div class="col s8 left-align">
+    <div class="col s12 left-align">
         {{#each article}}
         <div class="card-panel">
-            <h4>{{this.title}}</h4>
+            <h4 style="font-size: large;">{{this.title}}</h4>
             <a href="/readArticle/{{this._id}}" class="waves-effect waves-light btn" id="btnSignUp">Read Article</a>
 
         </div>
